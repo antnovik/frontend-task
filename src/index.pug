@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+html(lang="en")
+	head
+		meta(charset="UTF-8")
+		meta(name="viewport", content="width=device-width, initial-scale=1.0")
+		meta(http-equiv="X-UA-Compatible", content="ie=edge")
+		title Document
+	body
+		div(class='page-wrapper')
+			div(class = 'logo logo-position-1')
+				include /blocks/logo/logo-sign.svg
+				div(class = 'logo__name')
+					include /blocks/logo/logo-name.svg
+
+			ul(class='menu-horiz')
+				li(class='menu-horiz__item')
+					a(class='menu-horiz__link') Home
+				li(class='menu-horiz__item')
+					a(class='menu-horiz__link') About Us
+				li(class='menu-horiz__item')
+					a(class='menu-horiz__link') Services
+				li(class='menu-horiz__item')
+					a(class='menu-horiz__link') Careers
+				li(class='menu-horiz__item')
+					a(class='menu-horiz__link') News
+				li(class='menu-horiz__item')
+					a(class='menu-horiz__link') Documentation
+			
+			div(class = 'enter')
+				button Login
+				button Register
+
+
+
+
+
+		//h1 Hellow
+		script(src = 'main.js')
